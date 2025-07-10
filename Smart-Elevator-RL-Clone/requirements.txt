@@ -1,0 +1,16 @@
+# Core RL and environment
+gym
+numpy
+opencv-python
+
+# RL Agent and training
+stable-baselines
+tensorflow==1.15.0
+
+# Notes:
+# 1. stable-baselines primarily supports TensorFlow 1.x.
+#    If you intend to use TensorFlow 2.x or PyTorch, consider using stable-baselines3
+#    and adapting the train.py script accordingly.
+# 2. After cloning, install the custom gym environment by navigating to
+#    'gym-building' and running: pip install -e .
+# 3. Then, install these requirements: pip install -r requirements.txt
